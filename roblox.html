@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Top Up Robux Murah & Aman</title>
+    <link rel="stylesheet" href="roblox.css">
+</head>
+<body>
+
+<header>
+    <h1>TOP UP ROBUX MURAH & AMAN</h1>
+    <p>Proses cepat | Legal | Sudah Ribuan Transaksi</p>
+</header>
+
+<section class="form-section">
+    <h2>Detail Pembelian</h2>
+
+    <label>Username Roblox</label>
+    <input type="text" id="username" placeholder="Masukkan Username Roblox">
+
+    <label>Pilih Jumlah Robux</label>
+    <select id="robux" onchange="hitungHarga()">
+        <option value="0">-- Pilih Robux --</option>
+         <option value="300" data-harga="29000">300 Robux - Rp29.000</option>
+        <option value="500" data-harga="48000">500 Robux - Rp48.000</option>
+        <option value="700" data-harga="68000">700 Robux - Rp68.000</option>
+        <option value="1000" data-harga="97000">1000 Robux - Rp97.000</option>
+        <option value="1500" data-harga="147000">1500 Robux - Rp147.000</option>
+         <option value="2000" data-harga="196000">2000 Robux - Rp196.000</option>
+          <option value="5000" data-harga="495000">5000 Robux - Rp495.000</option>
+    </select>
+
+    <label>Total Harga</label>
+    <input type="text" id="totalHarga" readonly>
+
+    <label>Metode Pembayaran</label>
+    <select id="payment">
+        <option>E-Wallet (Dana, OVO, Gopay)</option>
+        <option>QRIS</option>
+    </select>
+
+    <button onclick="beliSekarang()">Beli Sekarang</button>
+</section>
+
+<section class="deskripsi">
+    <h2>Deskripsi Produk</h2>
+    <p>
+        Kami menyediakan layanan top up Robux cepat dan terpercaya.
+        Proses 5-15 menit setelah pembayaran.
+        Aman & sudah dipercaya ribuan pembeli.
+    </p>
+
+    <h3>Bantuan</h3>
+    <p>
+        Jika mengalami kendala, silakan hubungi admin melalui WhatsApp.
+        Admin aktif setiap hari pukul 08.00 - 22.00.
+    </p>
+</section>
+
+<section class="testimoni">
+    <h2>Testimoni Pembeli</h2>
+    <div class="testimonial-box">
+        <p>"Proses cepat banget! 5 menit langsung masuk!"</p>
+        <span>- Andi</span>
+    </div>
+    <div class="testimonial-box">
+        <p>"Sudah beli 3x aman terus!"</p>
+        <span>- Rina</span>
+    </div>
+    <div class="testimonial-box">
+        <p>"Trusted seller! Recommended!"</p>
+        <span>- Budi</span>
+    </div>
+    <h3>⭐⭐⭐⭐⭐ 4.9/5 dari 2.354+ Pembeli</h3>
+</section>
+
+<footer>
+    <p>© 2026 Top Up Robux Store | All Rights Reserved</p>
+</footer>
+
+<script src="roblox.js"></script>
+</body>
+</html>
